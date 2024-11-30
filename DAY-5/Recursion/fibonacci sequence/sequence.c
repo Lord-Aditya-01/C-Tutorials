@@ -7,7 +7,7 @@ int main() {
 }
 int sequence(int f) {
     if(f == 0) {
-            return ;
+            return 0;
     }
     if(f == 1) {
             return 1;
