@@ -12,8 +12,8 @@ int main() {
 int factorial(int n) {
     if(n==1) {
         return 1;
-    }
-    int nm1 = factorial(n-1);
-    int N = nm1 * n ;
-    return N;
+    } 
+    // int nm1 = factorial(n-1);
+    // int N = nm1 * n ;
+    return factorial(n-1) * n;
 }
