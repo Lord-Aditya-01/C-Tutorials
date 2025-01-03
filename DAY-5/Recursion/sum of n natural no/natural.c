@@ -9,7 +9,7 @@ int sum(int n) {
     if(n == 1 ) {
         return 1;
     }
-    int a = sum(n-1);
-    int sum = a + n;
-    return sum;
+    // int a = sum(n-1);
+    // int sum = a + n;
+    return sum(n-1) + n;
 }
